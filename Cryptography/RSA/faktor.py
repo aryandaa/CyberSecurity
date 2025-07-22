@@ -11,17 +11,17 @@ faktor = factorint(n)
 p, q = list(faktor.keys())
 print(f"p = {p}\nq = {q}")
 
-e = 65537
-c = 64177395397163304691577111719659943845372216362980151178719880072798156324
+# e = 65537
+# c = 64177395397163304691577111719659943845372216362980151178719880072798156324
 
-T = (p - 1) * (q - 1)
-print (f"nilai Totien = {T}")
+# T = (p - 1) * (q - 1)
+# print (f"nilai Totien = {T}")
 
-d = pow(e, -1, T)
-print (f"kunci dekripsi = {d}")
+# d = pow(e, -1, T)
+# print (f"kunci dekripsi = {d}")
 
-m = pow(c, d, n)
-print (f"plainteks = {m}")
+# m = pow(c, d, n)
+# print (f"plainteks = {m}")
 
-plaintext = long_to_bytes(m)
-print(f"Plaintext = {plaintext}")
+# plaintext = long_to_bytes(m)
+# print(f"Plaintext = {plaintext}")
