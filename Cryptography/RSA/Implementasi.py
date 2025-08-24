@@ -1,6 +1,6 @@
 #memasukan nilai p dan q
-p = 61
-q = 53
+p = 31415926535897932384626433832795028841
+q = 31415926535897932384626433832795028841
 
 #menghitung nilai n
 n = p * q
@@ -11,7 +11,7 @@ T = (p-1) * (q-1)
 
 #Memilih nilai e
 import math
-e = 17
+e = 65537
 if math.gcd(e, T)!= 1:
     print(f"❌ Nilai e = {e} tidak relatif prima dengan {T} Silakan pilih bilangan lain.")
     exit()
@@ -49,7 +49,7 @@ def create_blocks(nums):
     return blocks
 
 # Menginputkan plainteks
-M = "hellow world"
+M = "mXpCTF{Phi_is_the_key}"
 print (f"teks awal adalah : {M}\n")
 
 # Mengubah plainteks ke angka (1-26)
